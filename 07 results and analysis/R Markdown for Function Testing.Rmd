@@ -1,0 +1,19 @@
+---
+title: "Meta Data on R Code for Project XYZ"
+output: html_notebook
+---
+
+Set up visualization package for R operations
+
+```{r}
+install.packages("profis")
+```
+
+```{r}
+library(profvis)
+
+profvis({
+ # insert function running an operation
+})
+```
+

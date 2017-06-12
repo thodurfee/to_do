@@ -1,0 +1,34 @@
+#####################
+### Git Bash Code ###
+#####################
+
+ cd "C:\Users\DurfTop\Desktop\test workspace"
+ git init
+
+
+
+#######################
+## Thodurfee Version ##
+#######################
+
+ git config --global user.name thodurfee
+ git remote add origin_personal https://github.com/thodurfee/example.git
+
+ git checkout -b new_branch
+ git checkout new_branch
+ 
+git clone https://github.com/thodurfee/example.git
+
+###########################
+## Common Account Update ##
+###########################
+
+ git checkout new_branch
+ git status
+ git add .
+#
+
+ git commit -m "Insert Text"
+ git push --set-upstream origin_personal master
+ git push --set-upstream origin_school master
+
