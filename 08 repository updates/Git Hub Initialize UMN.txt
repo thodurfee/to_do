@@ -1,0 +1,33 @@
+#####################
+### Git Bash Code ###
+#####################
+
+ cd "C:\Users\DurfTop\Desktop\test workspace"
+ git init
+
+
+
+######################
+## Durfe019 Version ##
+######################
+
+ git config --global user.email durfe019@umn.edu
+ git remote add origin_umn https://github.umn.edu/durfe019/example.git
+
+ git checkout -b new_branch
+ git checkout new_branch
+ 
+git clone https://github.umn.edu/durfe019/example.git
+
+###########################
+## Common Account Update ##
+###########################
+
+ git checkout new_branch
+ git status
+ git add .
+#
+
+ git commit -m "Insert Text"
+ git push --set-upstream origin_umn new_branch
+

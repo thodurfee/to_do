@@ -1,0 +1,148 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="http://openurl.ingenta.com/content/xref?genre=article&amp;issn=0015-2218&amp;volume=63&amp;issue=3&amp;spage=311">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00152218"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yitzhaki</foaf:surname>
+                        <foaf:givenname>Shlomo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2806"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://openurl.ingenta.com/content/xref?genre=article&amp;issn=0015-2218&amp;volume=63&amp;issue=3&amp;spage=311</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>311-326</bib:pages>
+        <dc:date>2007-09-01</dc:date>
+        <dcterms:dateSubmitted>2017-04-06 01:19:20</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Cost-Benefit Analysis of Presumptive Taxation</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00152218">
+        <prism:volume>63</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>FinanzArchiv: Public Finance Analysis</dc:title>
+        <dc:identifier>ISSN 00152218</dc:identifier>
+        <dc:identifier>DOI 10.1628/001522107X250087</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2806">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2806/40913155.pdf"/>
+        <dc:title>40913155.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1111/puar.12162/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>74</prism:volume>
+                <prism:number>4</prism:number>
+                <dc:title>Public Administration Review</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kalambokidis</foaf:surname>
+                        <foaf:givenname>Laura</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2755"/>
+        <dc:subject>public finance</dc:subject>
+        <dc:subject>social welfare function</dc:subject>
+        <dc:subject>tax</dc:subject>
+        <dc:subject>Taxation</dc:subject>
+        <dc:subject>tax policy</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://onlinelibrary.wiley.com/doi/10.1111/puar.12162/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>519–526</bib:pages>
+        <dc:date>2014</dc:date>
+        <dcterms:dateSubmitted>2017-04-06 01:20:08</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dcterms:abstract>According to the framework rooted in public economics,
+governments can create public value by focusing tax
+and spending policies on remedying market failures and
+addressing concerns about fairness embodied in a social
+welfare function. By pursuing optimal tax and spending
+policies, governments navigate the omnipresent trade-off s
+between equity and effi ciency. Of course, in practice, the
+process by which policies are adopted does not resemble
+the planner’s problem in social choice theory. In addition,
+real fi scal policies do not look much like the recommendations
+that arise from the optimal tax literature.
+Governments operate in public choice environments
+that are not conducive to focused remedying of market
+failure, and they suff er from their own tendencies to fail
+to achieve their objectives. Nevertheless, many of the tools
+are in place to help the federal and state governments
+focus tax and spending in ways that can maximize public
+value.</dcterms:abstract>
+        <dc:title>Creating public value with tax and spending policies: The view from public economics</dc:title>
+        <z:shortTitle>Creating public value with tax and spending policies</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2755">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2755/Kalambokidis-2014-Public_Administration_Review.pdf"/>
+        <dc:title>Kalambokidis-2014-Public_Administration_Review.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_2888">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>National Tax Journal</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yitzhaki</foaf:surname>
+                        <foaf:givenname>Shlomo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2819"/>
+        <dc:date>2003</dc:date>
+        <dcterms:abstract>Abstract - This paper paints out the similarities and diffiirences
+between cost-benefit analysis and tax rtform. By restricting Ote
+analysis to Hu margin it is shown thatboth areas ambehandledby
+the same method. In both areas, there is a need to d^ne social distributional
+loeights and to evaluate the Marginal Efficiency Cost cf
+Public Funds (MECF). It is suggested thd the social distributional
+weig^ be derived from popular inequality indices. Sudi derivar
+tion enables the decomposition of Hie impact of the project (tax reform)
+on growth and redistribution so that one can evaluate Ou
+trade-off between the two.</dcterms:abstract>
+        <dc:title>Cost Benefit Analysis and the Distributional Consequences of Government Projects</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2819">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2819/ContentServer (7).pdf"/>
+        <dc:title>ContentServer (7).pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

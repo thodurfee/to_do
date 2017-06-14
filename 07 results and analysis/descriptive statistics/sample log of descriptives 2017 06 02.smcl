@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\DurfTop\Desktop\test workspace\07 results and analysis\de
+> scriptive statistics\sample log of descriptives 2017 06 02.smcl
+  log type:  text
+ opened on:   2 Jun 2017, 17:56:11
+
+. tabulate category1 [fweight = weight], summarize(var1) missing
+variable category1 not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. exit, clear
