@@ -1,0 +1,7 @@
+git fetch origin_umn
+git checkout -b new_branch_umn origin_umn/new_branch_umn
+git merge master
+
+git checkout master
+git merge --no-ff new_branch_umn
+git push origin master

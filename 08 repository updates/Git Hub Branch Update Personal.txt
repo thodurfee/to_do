@@ -1,0 +1,7 @@
+git fetch origin_personal
+git checkout -b new_branch_personal origin_personal/new_branch_personal
+git merge master
+
+git checkout master
+git merge --no-ff new_branch_personal
+git push origin master
