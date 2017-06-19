@@ -7,9 +7,9 @@ git add .
 git rm -r --cached "09 local files only"
 
 
- git commit -m "Insert Text"
+ git commit -m "this is a cleaning of the repository code, removing unecessary lines, and merging when appropriate"
  git push --set-upstream origin_personal new_branch
  git push --set-upstream origin_personal new_branch_personal
  git merge master
- git merge new_branch
- git merge new_branch_personal
+ git merge new_branch --allow-unrelated-histories
+ git merge new_branch_personal --allow-unrelated-histories
