@@ -2,62 +2,13 @@
 ### Git Bash Code ###
 #####################
 
- cd "C:\Users\DurfTop\Desktop\test workspace"
- git init
-
-
-
-
-
-######################
-## Durfe019 Version ##
-######################
-
- git config --global user.email durfe019@umn.edu
-<<<<<<< HEAD
- git remote add origin_school https://github.umn.edu/durfe019/example.git
-=======
- git remote add origin_umn https://github.umn.edu/durfe019/example.git
->>>>>>> 1c295455ed117309d59f8b17b859a657a2b47482
-# git clone https://github.umn.edu/durfe019/example.git
- git checkout -b new_branch
- git checkout new_branch
-
-
-
-###########################
-## Common Account Update ##
-###########################
-
- git checkout new_branch
- git status
-<<<<<<< HEAD
- git add "read me.txt"
- git add "note taking template.docx"
- git add "administrative docs/"
- git add "contacts/"
- git add "online bookmarks/"
- git add "project outline/"
-#
-
-# git add "stata_code.do"
-# git add "rstudio_code.r"
-# git add "method notes.docx"
-
-
-#
- git add "file_name.ext"
- git commit -m "Insert Text"
- git push --set-upstream origin_personal master
- git push --set-upstream origin_school master
-=======
-
-
-git add .
+ git add .
 git rm -r --cached "09 local files only"
 
 
  git commit -m "Insert Text"
  git push --set-upstream origin_umn new_branch
->>>>>>> 1c295455ed117309d59f8b17b859a657a2b47482
-
+ git push --set-upstream origin_umn new_branch_umn
+ git merge master
+ git merge new_branch
+ git merge new_branch_umn

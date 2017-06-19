@@ -1,3 +1,7 @@
+#######################
+## Thodurfee version ##
+#######################
+
 git fetch origin_personal
 git checkout -b new_branch_personal origin_personal/new_branch_personal
 git merge master

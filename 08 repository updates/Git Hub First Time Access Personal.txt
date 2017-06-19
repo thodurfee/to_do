@@ -2,7 +2,9 @@
 ### Git Bash Code ###
 #####################
 
- cd "C:\Users\DurfTop\Desktop\test workspace"
+# this repository has already been created, this is the first time accessing a repo from a new machine
+
+ cd "C:\Users\DurfTop\Desktop\example"
  git init
 
 
@@ -14,29 +16,9 @@
  git config --global user.name thodurfee
  git remote add origin_personal https://github.com/thodurfee/example.git
 
- git checkout -b new_branch
- git checkout new_branch
-<<<<<<< HEAD
 
-=======
->>>>>>> 1c295455ed117309d59f8b17b859a657a2b47482
- 
 git clone https://github.com/thodurfee/example.git
 
-###########################
-## Common Account Update ##
-###########################
+git checkout master
 
- git checkout new_branch
- git status
- git add .
-#
-
- git commit -m "Insert Text"
-<<<<<<< HEAD
- git push --set-upstream origin_personal master
- git push --set-upstream origin_school master
-=======
- git push --set-upstream origin_personal new_branch
->>>>>>> 1c295455ed117309d59f8b17b859a657a2b47482
 

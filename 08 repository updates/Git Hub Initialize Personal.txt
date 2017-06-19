@@ -2,14 +2,20 @@
 ### Git Bash Code ###
 #####################
 
- cd "C:\Users\DurfTop\Desktop\test workspace"
+# you must make a the repository on the GitHub Website First
+
+
+
+# define the local location of the folder you want to become connected
+ cd "C:\Users\DurfTop\Desktop\example"
  git init
 
 
 
-#######################
-## Thodurfee Version ##
-#######################
+##########################
+## set up pull address: ##
+## Thodurfee Version    ##
+##########################
 
  git config --global user.name thodurfee
  git remote add origin_personal https://github.com/thodurfee/example.git
@@ -19,16 +25,10 @@
  
 git clone https://github.com/thodurfee/example.git
 
-###########################
-## Common Account Update ##
-###########################
 
- git checkout new_branch
- git status
- git add .
-#
+git pull origin_personal master
 
- git commit -m "Insert Text"
- git push --set-upstream origin_personal master
- git push --set-upstream origin_school master
+git merge master
+git merge new_branch
+
 
