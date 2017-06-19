@@ -9,6 +9,6 @@ git rm -r --cached "09 local files only"
  git commit -m "Insert Text"
  git push --set-upstream origin_umn new_branch
  git push --set-upstream origin_umn new_branch_umn
- git merge master
- git merge new_branch
- git merge new_branch_umn
+ git merge master --allow-unrelated-histories
+ git merge new_branch --allow-unrelated-histories
+ git merge new_branch_umn --allow-unrelated-histories
